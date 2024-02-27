@@ -3727,3 +3727,16 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.27-12.18.39:468][489]AssetCheck: New page: Asset Save: background
 [2024.02.27-12.18.39:468][489]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Images/background.background
 [2024.02.27-12.18.42:472][498]AssetReimport: Reimported asset background from C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.jpg.
+[2024.02.27-12.22.10:179][121]AssetReimport: New page: Outstanding source content changes 12:22:10
+[2024.02.27-12.22.10:182][121]LogEditorFactories: Performing atomic reimport of [C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.jpg]
+[2024.02.27-12.22.10:185][121]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.jpg)
+[2024.02.27-12.22.10:213][121]LogEditorFactories: -- imported successfully
+[2024.02.27-12.22.10:222][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.27-12.22.10:240][121]LogTexture: Display: Building textures: /Game/Images/background.background (TFO_AutoDXT, 1968x1080 x1x1x1) (Required Memory Estimate: 193.202148 MB), EncodeSpeed: Fast
+[2024.02.27-12.22.10:380][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/background" FILE="../../../../../../Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.uasset" SILENT=true
+[2024.02.27-12.22.10:383][121]LogSavePackage: Moving output files for package: /Game/Images/background
+[2024.02.27-12.22.10:384][121]LogSavePackage: Moving '../../../../../../Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Saved/backgroundBF42EF4F46FBECBE60412FAD5FD51B42.tmp' to '../../../../../../Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.uasset'
+[2024.02.27-12.22.10:391][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 3.85 sec)
+[2024.02.27-12.22.10:498][122]AssetCheck: New page: Asset Save: background
+[2024.02.27-12.22.10:498][122]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Images/background.background
+[2024.02.27-12.22.13:501][131]AssetReimport: Reimported asset background from C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/background.jpg.
