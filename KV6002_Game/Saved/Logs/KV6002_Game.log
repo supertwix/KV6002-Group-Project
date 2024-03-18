@@ -1806,3 +1806,430 @@ Minimum required: 23.3.2
 [2024.03.18-03.07.42:517][322]AssetCheck: New page: Asset Save: multiple assets
 [2024.03.18-03.07.42:517][322]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainLevel.MainLevel
 [2024.03.18-03.07.42:517][322]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Timer.Timer
+[2024.03.18-03.08.33:062][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.08.33:063][674]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.08.33:063][674]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.08.33:063][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.08.33:066][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-03.08.33:069][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.08.33:079][674]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.18-03.08.33:079][674]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.18-03.08.33:079][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.18-03.08.33:081][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.18-03.08.33:084][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.08.33:087][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.18-03.08.33:147][677]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.03.18-03.08.33:780][715]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.18-03.08.33:785][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-03.08.33:785][715]PIE: New page: PIE session: MainLevel (18 Mar 2024, 03:08:33)
+[2024.03.18-03.08.33:787][715]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2024.03.18-03.08.33:789][715]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.18-03.08.33:797][716]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.08.33:799][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002772s)
+[2024.03.18-03.08.33:800][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.002849s)
+[2024.03.18-03.08.33:816][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.18-03.08.33:817][716]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.08.33:817][716]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.08.33:817][716]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.18-03.08.33:818][716]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2024.03.18-03.08.33:818][716]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-03.08.33:818][716]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.18-03.08.33:818][716]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-03.08.33:819][716]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-03.08.33:819][716]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-03.08.33:819][716]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-03.08.33:822][716]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-03.08.33:835][716]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Senary Audio)
+[2024.03.18-03.08.33:835][716]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-03.08.33:835][716]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-03.08.33:835][716]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-03.08.33:836][716]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.03.18-03.08.33:836][716]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.03.18-03.08.33:838][716]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.03.18-03.08.33:838][716]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.03.18-03.08.33:838][716]LogInit: FAudioDevice initialized with ID 8.
+[2024.03.18-03.08.33:838][716]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainLevel'.
+[2024.03.18-03.08.33:838][716]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.18-03.08.33:839][716]LogLoad: Game class is 'GameMode'
+[2024.03.18-03.08.33:840][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2024.03.18-03.08.33
+[2024.03.18-03.08.33:840][716]LogWorld: Bringing up level for play took: 0.000746
+[2024.03.18-03.08.33:841][716]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.08.33:841][716]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.08.33:841][716]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.08.33:842][716]Set new viewmode: Unlit
+[2024.03.18-03.08.33:842][716]LogBlueprintUserMessages: [GetQuestion_C_0] What is the difference between a virus and a worm?
+[2024.03.18-03.08.33:842][716]LogBlueprintUserMessages: [GetQuestion_C_0] A virus requires user interaction to spread, while a worm can spread automatically without user intervention
+[2024.03.18-03.08.33:842][716]LogBlueprintUserMessages: [GetQuestion_C_0] A virus is a type of malware, while a worm is a type of firewall
+[2024.03.18-03.08.33:842][716]LogBlueprintUserMessages: [GetQuestion_C_0] A virus infects only files, while a worm infects only network connections
+[2024.03.18-03.08.33:842][716]LogBlueprintUserMessages: [GetQuestion_C_0] A virus spreads through email attachments, while a worm spreads through infected websites
+[2024.03.18-03.08.33:842][716]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.08.33:842][716]PIE: Server logged in
+[2024.03.18-03.08.33:843][716]PIE: Play in editor total start time 0.057 seconds.
+[2024.03.18-03.08.41:606][173]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/TimerMusic.TimerMusic
+[2024.03.18-03.08.49:958][661]LogSlate: Window 'TimerMusic' being destroyed
+[2024.03.18-03.08.49:961][661]LogSlate: Window 'TimerMusic' being destroyed
+[2024.03.18-03.08.52:140][789]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/TimerSounds.TimerSounds
+[2024.03.18-03.09.12:514][991]LogSlate: Window 'TimerSounds' being destroyed
+[2024.03.18-03.09.12:517][991]LogSlate: Window 'TimerSounds' being destroyed
+[2024.03.18-03.09.37:421][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.18-03.09.37:441][948]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.09.37:443][948]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/LoginScreen.LoginScreen
+[2024.03.18-03.09.40:085][948]LogSlate: Window 'Message' being destroyed
+[2024.03.18-03.09.40:088][948]Message dialog closed, result: Cancel, title: Message, text: This action will terminate your Play In Editor session.  Continue?
+[2024.03.18-03.09.41:162][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.09.41:163][  9]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.09.41:163][  9]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.09.41:163][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.09.41:165][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-03.09.41:168][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.09.41:181][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.09.41:181][  9]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.18-03.09.41:181][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.18-03.09.41:184][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.18-03.09.41:190][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.18-03.09.41:246][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.18-03.09.44:339][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.18-03.09.44:341][156]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/LoginScreen.LoginScreen
+[2024.03.18-03.09.44:341][156]Cmd: MAP LOAD FILE="C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Maps/LoginScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.18-03.09.44:341][156]LightingResults: New page: Lighting Build
+[2024.03.18-03.09.44:341][156]LoadErrors: New page: Loading map: LoginScreen.umap
+[2024.03.18-03.09.44:360][156]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.09.44:360][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.09.44:360][156]MapCheck: New page: Map Check
+[2024.03.18-03.09.44:360][156]LightingResults: New page: Lighting Build
+[2024.03.18-03.09.44:374][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.18-03.09.44:377][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.18-03.09.44:378][156]LogWorld: UWorld::CleanupWorld for LoginScreen, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.09.44:378][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.09.44:394][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.18-03.09.44:407][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.18-03.09.44:414][156]LogAudio: Display: Audio Device (ID: 1) registered with world 'LoginScreen'.
+[2024.03.18-03.09.44:414][156]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.09.44:414][156]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.09.44:415][156]LogAIModule: Creating AISystem for world LoginScreen
+[2024.03.18-03.09.44:415][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.18-03.09.44:431][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.18-03.09.44:435][156]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.18-03.09.44:435][156]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.276ms to complete.
+[2024.03.18-03.09.47:206][316]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.18-03.09.47:213][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-03.09.47:213][316]PIE: New page: PIE session: LoginScreen (18 Mar 2024, 03:09:47)
+[2024.03.18-03.09.47:213][316]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2024.03.18-03.09.47:215][316]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.18-03.09.47:223][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LoginScreen
+[2024.03.18-03.09.47:225][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001421s)
+[2024.03.18-03.09.47:225][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LoginScreen.LoginScreen to /Game/Maps/UEDPIE_0_LoginScreen.LoginScreen (0.001482s)
+[2024.03.18-03.09.47:240][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.18-03.09.47:241][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.09.47:241][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.09.47:241][317]LogAIModule: Creating AISystem for world LoginScreen
+[2024.03.18-03.09.47:241][317]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2024.03.18-03.09.47:242][317]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-03.09.47:242][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.18-03.09.47:242][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-03.09.47:242][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-03.09.47:242][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-03.09.47:242][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-03.09.47:244][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-03.09.47:256][317]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Senary Audio)
+[2024.03.18-03.09.47:257][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-03.09.47:257][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-03.09.47:257][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-03.09.47:257][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.18-03.09.47:257][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.18-03.09.47:259][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.18-03.09.47:259][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.18-03.09.47:259][317]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.18-03.09.47:259][317]LogAudio: Display: Audio Device (ID: 9) registered with world 'LoginScreen'.
+[2024.03.18-03.09.47:259][317]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.18-03.09.47:262][317]LogLoad: Game class is 'GameMode'
+[2024.03.18-03.09.47:262][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LoginScreen.LoginScreen up for play (max tick rate 60) at 2024.03.18-03.09.47
+[2024.03.18-03.09.47:262][317]LogWorld: Bringing up level for play took: 0.000310
+[2024.03.18-03.09.47:262][317]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.09.47:262][317]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.09.47:262][317]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.09.47:264][317]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.09.47:264][317]PIE: Server logged in
+[2024.03.18-03.09.47:265][317]PIE: Play in editor total start time 0.052 seconds.
+[2024.03.18-03.10.03:922][316]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.10.03:932][316]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.10.04:108][328]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.10.04:123][328]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.10.04:123][328]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.10.07:822][550]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.10.07:822][550]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.10.07:857][553]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.10.07:872][553]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.10.07:872][553]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.10.10:439][707]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.10.10:439][707]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.10.10:508][712]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.10.10:523][712]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.10.10:523][712]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.11.39:353][234]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.11.39:353][234]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.11.39:523][245]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.11.39:537][245]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.11.39:537][245]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 0 (Found bundle for host: 0xb4349950960 [serially])
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 6 (Closing connection)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8D5CFD5-4A2B-2002-D05E-77AC05E4D28F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=81043b8745c2b1f7e88123ad0acdaf3d%7C1e80d187539846b6a4ddb7ae43f26804%7Cf21b8bf1-eaa1-44df-84a7-4b3878c2e996&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 9 (  Trying 34.234.213.175:443...)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.234.213.175) port 443)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 25 (Server certificate:)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 34 (Closing connection)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: 00000B43B2D65A00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.18-03.12.39:895][770]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8D5CFD5-4A2B-2002-D05E-77AC05E4D28F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=81043b8745c2b1f7e88123ad0acdaf3d%7C1e80d187539846b6a4ddb7ae43f26804%7Cf21b8bf1-eaa1-44df-84a7-4b3878c2e996&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.18-03.13.57:068][143]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.13.57:069][143]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.13.57:554][173]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.13.57:569][173]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.13.57:569][173]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.14.03:302][517]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.14.03:302][517]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.14.03:472][528]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.14.03:485][528]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.14.03:486][528]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.14.24:003][942]LogBlueprintUserMessages: [TokenandLogin_C_0] submit button clicked
+[2024.03.18-03.14.24:003][942]LogVaRest: UVaRestRequestJSON::ProcessRequest(420): Request (url body): GET https://w20013126.nuwebspace.co.uk/GroupProjectSem2/token (check bExtendedLog for additional data)
+[2024.03.18-03.14.24:072][947]LogVaRest: Response (401): 
+JSON(
+{"message":"Unauthorized"}
+)JSON
+[2024.03.18-03.14.24:086][947]LogJwtVerifier: Error: Error:  105
+[2024.03.18-03.14.24:086][947]LogBlueprintUserMessages: [TokenandLogin_C_0] not worked lol
+[2024.03.18-03.14.30:373][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.30:373][321]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LoginScreen
+[2024.03.18-03.14.30:373][321]LogWorld: UWorld::CleanupWorld for LoginScreen, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.14.30:373][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.30:375][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-03.14.30:380][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.30:392][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.30:393][321]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.18-03.14.30:393][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.18-03.14.30:394][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.18-03.14.30:401][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.18-03.14.30:455][324]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.18-03.14.35:983][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.18-03.14.36:047][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.14.36:050][652]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainLevel.MainLevel
+[2024.03.18-03.14.36:050][652]Cmd: MAP LOAD FILE="C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.18-03.14.36:050][652]LightingResults: New page: Lighting Build
+[2024.03.18-03.14.36:051][652]LoadErrors: New page: Loading map: MainLevel.umap
+[2024.03.18-03.14.36:079][652]LogWorld: UWorld::CleanupWorld for LoginScreen, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.14.36:079][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.36:080][652]MapCheck: New page: Map Check
+[2024.03.18-03.14.36:080][652]LightingResults: New page: Lighting Build
+[2024.03.18-03.14.36:092][652]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.18-03.14.36:094][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.18-03.14.36:095][652]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.14.36:095][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.36:111][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.18-03.14.36:126][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.03.18-03.14.36:133][652]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2024.03.18-03.14.36:133][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.14.36:133][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.14.36:134][652]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.18-03.14.36:136][652]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.18-03.14.36:150][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.18-03.14.36:155][652]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.18-03.14.36:156][652]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2024.03.18-03.14.38:902][813]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.18-03.14.38:907][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-03.14.38:907][813]PIE: New page: PIE session: MainLevel (18 Mar 2024, 03:14:38)
+[2024.03.18-03.14.38:907][813]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2024.03.18-03.14.38:909][813]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.18-03.14.38:919][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.14.38:922][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002824s)
+[2024.03.18-03.14.38:922][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.002896s)
+[2024.03.18-03.14.38:940][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.03.18-03.14.38:940][814]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.14.38:941][814]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.14.38:941][814]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.18-03.14.38:941][814]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2024.03.18-03.14.38:941][814]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.18-03.14.38:941][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-03.14.38:942][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.18-03.14.38:942][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-03.14.38:942][814]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-03.14.38:942][814]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-03.14.38:942][814]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-03.14.38:943][814]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-03.14.38:957][814]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Senary Audio)
+[2024.03.18-03.14.38:957][814]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-03.14.38:957][814]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-03.14.38:957][814]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-03.14.38:958][814]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.18-03.14.38:958][814]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.18-03.14.38:961][814]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.18-03.14.38:961][814]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.18-03.14.38:961][814]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.18-03.14.38:961][814]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainLevel'.
+[2024.03.18-03.14.38:961][814]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.18-03.14.38:962][814]LogLoad: Game class is 'GameMode'
+[2024.03.18-03.14.38:963][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2024.03.18-03.14.38
+[2024.03.18-03.14.38:963][814]LogWorld: Bringing up level for play took: 0.000825
+[2024.03.18-03.14.38:964][814]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.14.38:964][814]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.14.38:964][814]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.14.38:965][814]Set new viewmode: Unlit
+[2024.03.18-03.14.38:965][814]LogBlueprintUserMessages: [GetQuestion_C_0] What are some potential risks associated with sharing personal information on social media platforms?
+[2024.03.18-03.14.38:965][814]LogBlueprintUserMessages: [GetQuestion_C_0] otential for identity theft or fraud
+[2024.03.18-03.14.38:965][814]LogBlueprintUserMessages: [GetQuestion_C_0] Increased likelihood of receiving targeted advertising
+[2024.03.18-03.14.38:965][814]LogBlueprintUserMessages: [GetQuestion_C_0] Greater social interaction with friends and family
+[2024.03.18-03.14.38:965][814]LogBlueprintUserMessages: [GetQuestion_C_0] Improved cybersecurity awareness and education
+[2024.03.18-03.14.38:965][814]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.14.38:965][814]PIE: Server logged in
+[2024.03.18-03.14.38:966][814]PIE: Play in editor total start time 0.059 seconds.
+[2024.03.18-03.14.42:393][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.42:393][ 19]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.14.42:393][ 19]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.14.42:394][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.42:396][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-03.14.42:399][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.42:412][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.42:412][ 19]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.18-03.14.42:412][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.18-03.14.42:414][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.18-03.14.42:420][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.18-03.14.42:479][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.18-03.14.42:933][ 49]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.18-03.14.42:938][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.18-03.14.42:938][ 49]PIE: New page: PIE session: MainLevel (18 Mar 2024, 03:14:42)
+[2024.03.18-03.14.42:938][ 49]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.03.18-03.14.42:941][ 49]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.18-03.14.42:949][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.14.42:952][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002843s)
+[2024.03.18-03.14.42:952][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.002922s)
+[2024.03.18-03.14.42:968][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.18-03.14.42:969][ 50]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.18-03.14.42:969][ 50]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.18-03.14.42:969][ 50]LogAIModule: Creating AISystem for world MainLevel
+[2024.03.18-03.14.42:969][ 50]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.03.18-03.14.42:969][ 50]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.18-03.14.42:970][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.18-03.14.42:970][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.18-03.14.42:970][ 50]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.18-03.14.42:970][ 50]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.18-03.14.42:970][ 50]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.18-03.14.42:973][ 50]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.18-03.14.42:985][ 50]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Senary Audio)
+[2024.03.18-03.14.42:985][ 50]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.18-03.14.42:985][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.18-03.14.42:985][ 50]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.18-03.14.42:986][ 50]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.18-03.14.42:986][ 50]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.18-03.14.42:989][ 50]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.18-03.14.42:989][ 50]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.18-03.14.42:989][ 50]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.18-03.14.42:989][ 50]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainLevel'.
+[2024.03.18-03.14.42:989][ 50]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.18-03.14.42:990][ 50]LogLoad: Game class is 'GameMode'
+[2024.03.18-03.14.42:991][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2024.03.18-03.14.42
+[2024.03.18-03.14.42:991][ 50]LogWorld: Bringing up level for play took: 0.000769
+[2024.03.18-03.14.42:992][ 50]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.14.42:992][ 50]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.18-03.14.42:992][ 50]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.14.42:992][ 50]Set new viewmode: Unlit
+[2024.03.18-03.14.42:993][ 50]LogBlueprintUserMessages: [GetQuestion_C_0] What does HTTPS stand for?
+[2024.03.18-03.14.42:993][ 50]LogBlueprintUserMessages: [GetQuestion_C_0] Hypertext Transfer Protocol Secure
+[2024.03.18-03.14.42:993][ 50]LogBlueprintUserMessages: [GetQuestion_C_0] Hypertext Transfer Protocol Standard
+[2024.03.18-03.14.42:993][ 50]LogBlueprintUserMessages: [GetQuestion_C_0] Hypertext Transfer Protocol Service
+[2024.03.18-03.14.42:993][ 50]LogBlueprintUserMessages: [GetQuestion_C_0] Hypertext Transfer Protocol System
+[2024.03.18-03.14.42:993][ 50]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.18-03.14.42:993][ 50]PIE: Server logged in
+[2024.03.18-03.14.42:993][ 50]PIE: Play in editor total start time 0.055 seconds.
+[2024.03.18-03.14.48:493][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.48:494][379]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2024.03.18-03.14.48:494][379]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.03.18-03.14.48:494][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.48:496][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.18-03.14.48:499][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.18-03.14.48:513][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.18-03.14.48:513][379]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.18-03.14.48:513][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.18-03.14.48:515][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.18-03.14.48:520][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.18-03.14.48:580][383]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.18-03.14.54:405][722]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/DataTables/DT_TimerStats.DT_TimerStats
+[2024.03.18-03.17.32:684][ 53]LogSlate: Window 'DT_TimerStats' being destroyed
+[2024.03.18-03.17.32:688][ 53]LogSlate: Window 'DT_TimerStats' being destroyed
+[2024.03.18-03.17.33:916][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.03.18-03.17.35:323][124]LogSlate: Window 'Save Content' being destroyed
+[2024.03.18-03.17.35:329][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.18-03.17.35:388][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DataTables/DT_TimerStats" FILE="C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/DataTables/DT_TimerStats.uasset" SILENT=true
+[2024.03.18-03.17.35:389][124]LogSavePackage: Moving output files for package: /Game/DataTables/DT_TimerStats
+[2024.03.18-03.17.35:391][124]LogSavePackage: Moving 'C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Saved/DT_TimerStatsD6A930D846B6E02E4FA47090FE863284.tmp' to 'C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/DataTables/DT_TimerStats.uasset'
+[2024.03.18-03.17.35:409][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 158 ms)
+[2024.03.18-03.17.35:410][124]AssetCheck: New page: Asset Save: DT_TimerStats
+[2024.03.18-03.17.35:410][124]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/DataTables/DT_TimerStats.DT_TimerStats
