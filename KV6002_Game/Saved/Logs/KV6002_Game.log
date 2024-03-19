@@ -12534,3 +12534,9 @@ Script Stack (0 frames) :
 [2024.03.19-12.56.48:007][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.18 sec)
 [2024.03.19-12.56.48:008][546]AssetCheck: New page: Asset Save: QuestionsWidget
 [2024.03.19-12.56.48:008][546]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/QuestionsWidget.QuestionsWidget
+[2024.03.19-12.58.26:262][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.19-12.58.26:329][187]LogSavePackage: Moving output files for package: /Game/Blueprints/QuestionsWidget
+[2024.03.19-12.58.26:330][187]LogSavePackage: Moving '../../../../../../Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Saved/QuestionsWidget17B272EA4F282A00612D55A206B297B4.tmp' to '../../../../../../Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/QuestionsWidget.uasset'
+[2024.03.19-12.58.26:337][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 6.26 sec)
+[2024.03.19-12.58.26:339][187]AssetCheck: New page: Asset Save: QuestionsWidget
+[2024.03.19-12.58.26:339][187]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/QuestionsWidget.QuestionsWidget
