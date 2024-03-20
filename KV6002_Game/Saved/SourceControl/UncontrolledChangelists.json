@@ -5,6 +5,21 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/monster.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/HealthBarShit/HealthWidget.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/HPStorage.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainLevel.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/MainMenu.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Images/leaderboard.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/Leaderboard.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/LeaderboardLv.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/MainMenuLv.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/AchievementsLv.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/Achievements.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainMenu.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/LoginUI.uasset",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/LoginScreen.umap",
+				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/TokenandLogin.uasset",
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/Player.uasset",
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainLevel.umap",
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/MainMenu.uasset",
@@ -12,11 +27,7 @@
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/MainMenuLv.umap",
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/HUD.uasset",
 				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/NewGameMode.uasset",
-				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainMenu.umap",
-				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/monster.uasset",
-				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/HealthBarShit/HealthWidget.uasset",
-				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/HPStorage.uasset",
-				"C:/Users/gls21012595/OneDrive - Northumbria University - Production Azure AD/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainLevel.umap"
+				"E:/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainMenu.umap"
 			]
 		}
 	]
