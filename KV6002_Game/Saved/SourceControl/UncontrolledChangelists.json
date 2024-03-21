@@ -5,6 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/DataTables/S_TimerStats.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/DataTables/DT_TimerStats.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/scoreboard.uasset",
+				"C:/Program Files/Epic Games/UE_5.3/Engine/Content/BasicShapes/Cube.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/Leaderboard.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/LeaderboardLv.umap",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/CyberTimer.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/QuestionsWidget.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/MainMenu.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/monster.uasset",
+				"C:/Users/gls21012595/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/MenuAndHUD/YouWon.uasset",
 				"C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Maps/MainLevel.umap",
 				"C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Blueprints/monster.uasset"
 			]
