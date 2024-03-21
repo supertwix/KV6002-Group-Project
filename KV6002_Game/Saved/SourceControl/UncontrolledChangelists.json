@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< Updated upstream
 				"C:/Users/cs21014126/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/DataTables/SQuestionGen.uasset",
 				"C:/Users/cs21014126/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Maps/MainLevel.umap",
 				"C:/Users/cs21014126/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/GetQuestion.uasset",
@@ -122,6 +123,11 @@
 				"C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Monsters/HobgoblinNoOutline/goblinsmasher_hurt.uasset",
 				"C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Monsters/HobgoblinNoOutline/goblinsmasher_death.uasset",
 				"C:/Users/gls21008603/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Monsters/HobgoblinNoOutline/goblinsmasher_attack.uasset"
+=======
+				"C:/Users/cs21014126/Documents/GitHub/KV6002-Group-Project/KV6002_Game/Content/Blueprints/QuestionsWidget.uasset",
+				"C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Maps/MainLevel.umap",
+				"C:/Users/Quinn/OneDrive/Documents/GitHub/KV6002_Game/Content/Blueprints/monster.uasset"
+>>>>>>> Stashed changes
 			]
 		}
 	]
