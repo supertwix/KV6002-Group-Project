@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\KV6002 GitHub\\KV6002-Group-Project\\KV6002_Game\\Intermediate\\Source\\KV6002_Game.Build.cs",
+		"C:\\KV6002 GitHub\\KV6002-Group-Project\\KV6002_Game\\Intermediate\\Source\\KV6002_Game.Target.cs",
+		"C:\\KV6002 GitHub\\KV6002-Group-Project\\KV6002_Game\\Intermediate\\Source\\KV6002_GameClient.Target.cs",
+		"C:\\KV6002 GitHub\\KV6002-Group-Project\\KV6002_Game\\Intermediate\\Source\\KV6002_GameEditor.Target.cs",
+		"C:\\KV6002 GitHub\\KV6002-Group-Project\\KV6002_Game\\Intermediate\\Source\\KV6002_GameServer.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
